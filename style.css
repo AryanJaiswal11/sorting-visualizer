@@ -1,0 +1,62 @@
+html{
+    background: linear-gradient(85deg, #2c3e50, #4ca1af);
+}
+h2{
+    font-family:cursive;
+    color: rgb(244, 244, 236);
+}
+div{
+    display: grid;
+    grid-template-columns: 0.5fr 5fr;
+    height: 90vh;
+    background-color: rgb(10, 10, 10)
+}
+.pannel{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    border : 3px solid rgb(153, 156, 7)
+}
+.area {
+    background-color: rgb(11, 11, 11);
+    display: flex;
+    align-items: flex-end;      /* Align bars to the bottom */
+    justify-content: center;    /* Center bars horizontally */
+    height: 500px;              /* Container height */
+    padding: 10px;              /* Spacing inside the container */
+    overflow-x: auto;           /* Scroll if bars overflow */
+  }
+button{
+    margin : 15px;
+    margin-left: 10px;
+    height:30px;
+    width: 100px;
+    background-color: rgb(233, 79, 79);
+    border-radius: 10px;
+}
+button:hover {
+    background-color: #4ca1af; /* Optional: hover color */
+    color: white;              /* Optional: text color change */
+    transform: translateY(-3px); /* 👈 Lifts button up slightly */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional: soft shadow */
+}
+.press{
+    background-color: cornflowerblue;
+    color:aliceblue;
+}
+.genr{
+    width:100px;
+    height:50px;
+    background-color: greenyellow;
+}
+#pause{
+    background-color: rgb(11, 220, 60);
+}
+.bars {
+    display: inline-block;
+    margin: 0 2px;
+    background-color: lightcoral;
+    transition: height 0.3s ease, background-color 0.3s ease;
+    text-align: center;
+    font-size: 15px;
+}

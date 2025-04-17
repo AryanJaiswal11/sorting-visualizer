@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SORTING VISUALIZER</title>
+</head>
+<body>
+    <script src="sort.js"></script>
+    <h2>Sorting Visualizer</h2>
+    <div>
+        <div class="pannel">
+            <button onclick="QK_SORT()" id="b1">QuickSort</button>
+            <button onclick="MER_SORT()" id="b2">MergeSort</button>
+            <button onclick="BUB_SORT()" id="b3">BubbleSort</button>
+            <button onclick="SEL_SORT()" id="b4">SelectionSort</button>
+            <button onclick="IN_SORT()"  id="b5">Insertion Sort</button>
+            <button class="genr" onclick="genrate()">GENERATE ARRAY</button>
+            <button id="pause" onclick="pause_func()">pause</button>
+        </div>
+        <div class="area"></div>
+    </div>
+</body>
+</html>
